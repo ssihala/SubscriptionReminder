@@ -1,0 +1,39 @@
+.login-h1 {
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.login-div {
+    margin-top: 7%;
+    background-color: #1d1d42;
+}
+
+.signin-btn {
+    background-color: #383799;
+    font-family: 'Quicksand', sans-serif;
+    border: 3px solid #232256;
+    margin-top: 7%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    font-size: 30px;
+    height: 60px;
+    width: 150px;
+    color: white;
+}
+
+.signin-btn:focus {
+    border: 3px solid #232256;
+    background-color: #4240b1;
+    box-shadow: none !important;
+}
+
+.signin-btn:hover {
+    border: 3px solid #232256;
+    background-color: #4240b1;
+}
