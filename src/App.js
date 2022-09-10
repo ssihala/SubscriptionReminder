@@ -1,14 +1,15 @@
+import { Button } from 'bootstrap';
+import { useState } from 'react';
 import './App.css';
-
-import Buttons from "./Component2"
+import Login from './components/Login';
 
 function App() {
+
+  const [user, setUser] = useState(null)
+
   return (
     <div className="App">
-        <div className="login-div">
-            <h1 className="login-h1">Subscription Manager</h1>
-            <Buttons></Buttons>
-        </div>
+      {user ? console.log("here"): <Login setUser={setUser}></Login>}
     </div>
     
   );

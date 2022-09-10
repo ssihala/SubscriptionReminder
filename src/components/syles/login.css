@@ -1,5 +1,5 @@
 .login-h1 {
-    font-size: 100px;
+    font-size: 75px;
     text-align: center;
     color: white;
     font-family: 'Quicksand', sans-serif;
@@ -8,6 +8,13 @@
 .login-div {
     margin-top: 7%;
     background-color: #1d1d42;
+}
+
+.login-h3 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .signin-btn {
