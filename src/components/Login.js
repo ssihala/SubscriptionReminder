@@ -1,4 +1,4 @@
-import "./syles/login.css"
+import "./styles/Login.css"
 
 function Login( { setUser }) {
     return (

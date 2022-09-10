@@ -1,10 +1,7 @@
-import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
-import Form from 'react-bootstrap/Form';
-import './components/syles/buttons.css';
+import { useState } from 'react';
+import { Button, Modal, Form } from 'react-bootstrap';
 
-function Buttons() {
+function AddButton() {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -12,10 +9,9 @@ function Buttons() {
 
   return (
     <>
-      <Button className="add-button" variant="primary" onClick={handleShow}>
-        Add Subscription
+      <Button className="add-button" onClick={handleShow}>
+        Add
       </Button>
-
       <Modal show={show} onHide={handleClose} className="add-modal">
         <Modal.Header closeButton>
           <Modal.Title>New Subscription</Modal.Title>
@@ -49,4 +45,4 @@ function Buttons() {
   );
 }
 
-export default Buttons;
+export default AddButton;

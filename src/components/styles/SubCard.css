@@ -1,0 +1,19 @@
+/* <----- Card -----> */
+.sub-card { 
+    background-color: #1b1a43;
+    color: white;
+    margin: 2% 2% 0% 2%;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+.sub-card-body {
+    background-color: #1b1a43;
+    color: white;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    border-radius: 15px;
+    margin: 1% 1% 0% 1%;
+}
