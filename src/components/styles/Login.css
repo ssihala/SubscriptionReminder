@@ -14,6 +14,7 @@
     font-size: 30px;
     text-align: center;
     color: white;
+    margin-top: 3%;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -21,7 +22,7 @@
     background-color: #383799;
     font-family: 'Quicksand', sans-serif;
     border: 3px solid #232256;
-    margin-top: 7%;
+    margin-top: 3%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -44,3 +45,32 @@
     border: 3px solid #232256;
     background-color: #4240b1;
 }
+
+.signup-btn {
+    background-color: #383799;
+    font-family: 'Quicksand', sans-serif;
+    border: 3px solid #232256;
+    margin-top: 3%;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    font-size: 30px;
+    height: 60px;
+    width: 150px;
+    color: white;
+}
+
+.signup-btn:focus {
+    border: 3px solid #232256;
+    background-color: #4240b1;
+    box-shadow: none !important;
+}
+
+.signup-btn:hover {
+    border: 3px solid #232256;
+    background-color: #4240b1;
+}
+

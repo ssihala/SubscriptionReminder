@@ -5,15 +5,33 @@
     margin: 2% 2% 0% 2%;
     font-family: 'Quicksand', sans-serif;
     border-radius: 10px;
-    font-size: x-large;
+    font-size: small;
 }
 
-.sub-card-body {
+.sub-card-title {
+    padding-left: 10px;
+    padding-top: 5px;
+    background-color: #1b1a43;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.sub-card-footer-left {
     background-color: #1b1a43;
     color: white;
     border: none;
     box-shadow: none;
     outline: none;
-    border-radius: 15px;
-    margin: 1% 1% 0% 1%;
+}
+
+.sub-card-footer-right {
+    background-color: #1b1a43;
+    text-align: right;
+    color: white;
+    border: none;
+    box-shadow: none;
+    outline: none;
 }
